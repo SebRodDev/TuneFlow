@@ -6,3 +6,29 @@ body {
     linear-gradient(to bottom , rgb(95, 94, 94) 1px, transparent 1px);
 }
 
+
+@font-face {
+    font-family: 'wakuwaku';
+    src: url('./mini-wakuwaku.otf');
+}
+
+.title {
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'wakuwaku';
+    font-size: 55px;
+    color: #8789E8;
+    text-shadow: -3px 0 #D7D7D7, 0 3px #D7D7D7, 3px 0 #D7D7D7, 0 -3px #D7D7D7;
+}
+
+input {
+    font-family: 'wakuwaku';
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 22px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
