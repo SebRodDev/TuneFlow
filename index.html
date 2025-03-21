@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width", initial-scale="1.0">
         <title>TuneFlow</title>
         <link rel="stylesheet" href="/resources/index.css">
+        <script type="text/javascript" src="javascript/jquery-3.7.1.min.js"></script>
+        <script type="text/javascript" src="javascript/singIn.js"></script>
     </head>
     <body>
         <h1 class="title">TuneFlow</h1>
@@ -13,7 +15,10 @@
         <input type="text" placeholder="Username">
         <!-- Weird issue occurring here where when you type something the text is white -->
         <input type="password" placeholder="Password">
-        <!-- Adding a button to log into Spotify, not sure if this is required using the Spotify API -->
-         <button type="button" class="signUpButton">Sign in</button>
+        <button type="button" class="signUpButton" id="signInButton">Sign in</button>
+        <!-- Button for the soundcloud API -->
+        <button type="button" class="soundCloudButton" id="soundCloudButton">Connect with Spotify
+            <img src="resources/Spotify_Primary_Logo_RGB_Green.png">
+        </button>
     </body>
 </html>
